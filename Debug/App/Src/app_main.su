@@ -1,0 +1,4 @@
+../App/Src/app_main.c:41:6:App_Main	80	static
+../App/Src/app_main.c:55:6:Task_1ms_CriticalOps	40	static
+../App/Src/app_main.c:92:6:Task_5ms_Monitoring	32	static
+../App/Src/app_main.c:127:6:Process_CAN_Command	32	static

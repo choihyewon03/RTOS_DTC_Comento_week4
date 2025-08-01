@@ -1,0 +1,2 @@
+../Drivers/IC/pmic_mp5475.c:36:19:PMIC_Init	16	static
+../Drivers/IC/pmic_mp5475.c:41:13:PMIC_Check_Faults	32	static

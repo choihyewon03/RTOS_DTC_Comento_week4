@@ -1,0 +1,6 @@
+../Drivers/IC/eeprom_25lc256.c:15:20:EEPROM_CS_Select	8	static
+../Drivers/IC/eeprom_25lc256.c:16:20:EEPROM_CS_Deselect	8	static
+../Drivers/IC/eeprom_25lc256.c:18:6:EEPROM_Init	16	static
+../Drivers/IC/eeprom_25lc256.c:23:19:EEPROM_Write_DTC	24	static
+../Drivers/IC/eeprom_25lc256.c:45:19:EEPROM_Read_DTC	24	static
+../Drivers/IC/eeprom_25lc256.c:60:19:EEPROM_Clear_DTC	8	static

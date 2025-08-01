@@ -1,0 +1,3 @@
+../Drivers/Protocol/can_manager.c:12:6:CAN_Manager_Init	16	static
+../Drivers/Protocol/can_manager.c:19:19:CAN_Transmit_DTC_Broadcast	48	static
+../Drivers/Protocol/can_manager.c:38:19:CAN_Transmit_Diag_Response	48	static
