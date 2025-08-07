@@ -8,6 +8,7 @@
 "./Core/Src/system_stm32f4xx.o"
 "./Core/Startup/startup_stm32f413zhtx.o"
 "./Drivers/IC/eeprom_25lc256.o"
+"./Drivers/IC/gatedriver_drv8871.o"
 "./Drivers/IC/pmic_mp5475.o"
 "./Drivers/Protocol/can_manager.o"
 "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"

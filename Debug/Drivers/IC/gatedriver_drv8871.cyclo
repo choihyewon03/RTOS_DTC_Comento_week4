@@ -1,0 +1,3 @@
+../Drivers/IC/gatedriver_drv8871.c:11:6:GateDriver_Init	1
+../Drivers/IC/gatedriver_drv8871.c:16:6:GateDriver_EnableMotor	1
+../Drivers/IC/gatedriver_drv8871.c:21:6:GateDriver_DisableMotor	1

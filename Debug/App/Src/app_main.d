@@ -34,7 +34,8 @@ App/Src/app_main.o: ../App/Src/app_main.c ../App/Inc/app_main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
- ../Drivers/IC/eeprom_25lc256.h ../Drivers/Protocol/can_manager.h
+ ../Drivers/IC/eeprom_25lc256.h ../Drivers/Protocol/can_manager.h \
+ ../Drivers/IC/gatedriver_drv8871.h ../Core/Inc/main.h
 ../App/Inc/app_main.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
 ../Drivers/IC/pmic_mp5475.h:
@@ -73,3 +74,5 @@ App/Src/app_main.o: ../App/Src/app_main.c ../App/Inc/app_main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 ../Drivers/IC/eeprom_25lc256.h:
 ../Drivers/Protocol/can_manager.h:
+../Drivers/IC/gatedriver_drv8871.h:
+../Core/Inc/main.h:

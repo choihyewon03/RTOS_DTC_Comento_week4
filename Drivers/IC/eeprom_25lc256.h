@@ -8,9 +8,14 @@
 
 #include "stm32f4xx_hal.h"
 
+typedef struct {
+    uint32_t dtc_code;
+    float    snapshot_voltage;
+} DTC_Record_t;
+
 void EEPROM_Init(SPI_HandleTypeDef *hspi);
-HAL_StatusTypeDef EEPROM_Write_DTC(uint32_t dtcCode);
-HAL_StatusTypeDef EEPROM_Read_DTC(uint32_t *dtcCode);
-HAL_StatusTypeDef EEPROM_Clear_DTC(void);
+HAL_StatusTypeDef EEPROM_Write_Record(DTC_Record_t record);
+HAL_StatusTypeDef EEPROM_Read_Record(DTC_Record_t *record);
+HAL_StatusTypeDef EEPROM_Clear_Record(void);
 
 #endif /* IC_EEPROM_25LC256_H_ */

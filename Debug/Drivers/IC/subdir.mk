@@ -6,14 +6,17 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Drivers/IC/eeprom_25lc256.c \
+../Drivers/IC/gatedriver_drv8871.c \
 ../Drivers/IC/pmic_mp5475.c 
 
 OBJS += \
 ./Drivers/IC/eeprom_25lc256.o \
+./Drivers/IC/gatedriver_drv8871.o \
 ./Drivers/IC/pmic_mp5475.o 
 
 C_DEPS += \
 ./Drivers/IC/eeprom_25lc256.d \
+./Drivers/IC/gatedriver_drv8871.d \
 ./Drivers/IC/pmic_mp5475.d 
 
 
@@ -24,7 +27,7 @@ Drivers/IC/%.o Drivers/IC/%.su Drivers/IC/%.cyclo: ../Drivers/IC/%.c Drivers/IC/
 clean: clean-Drivers-2f-IC
 
 clean-Drivers-2f-IC:
-	-$(RM) ./Drivers/IC/eeprom_25lc256.cyclo ./Drivers/IC/eeprom_25lc256.d ./Drivers/IC/eeprom_25lc256.o ./Drivers/IC/eeprom_25lc256.su ./Drivers/IC/pmic_mp5475.cyclo ./Drivers/IC/pmic_mp5475.d ./Drivers/IC/pmic_mp5475.o ./Drivers/IC/pmic_mp5475.su
+	-$(RM) ./Drivers/IC/eeprom_25lc256.cyclo ./Drivers/IC/eeprom_25lc256.d ./Drivers/IC/eeprom_25lc256.o ./Drivers/IC/eeprom_25lc256.su ./Drivers/IC/gatedriver_drv8871.cyclo ./Drivers/IC/gatedriver_drv8871.d ./Drivers/IC/gatedriver_drv8871.o ./Drivers/IC/gatedriver_drv8871.su ./Drivers/IC/pmic_mp5475.cyclo ./Drivers/IC/pmic_mp5475.d ./Drivers/IC/pmic_mp5475.o ./Drivers/IC/pmic_mp5475.su
 
 .PHONY: clean-Drivers-2f-IC
 

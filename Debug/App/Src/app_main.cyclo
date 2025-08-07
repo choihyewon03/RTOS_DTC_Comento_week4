@@ -1,4 +1,4 @@
-../App/Src/app_main.c:41:6:App_Main	1
-../App/Src/app_main.c:55:6:Task_1ms_CriticalOps	7
-../App/Src/app_main.c:92:6:Task_5ms_Monitoring	5
-../App/Src/app_main.c:127:6:Process_CAN_Command	3
+../App/Src/app_main.c:46:6:App_Main	1
+../App/Src/app_main.c:61:6:Task_1ms_CriticalOps	9
+../App/Src/app_main.c:114:6:Task_5ms_Monitoring	5
+../App/Src/app_main.c:150:6:Process_CAN_Command	3

@@ -13,6 +13,11 @@
 #define CAN_ID_DIAG_REQUEST     0x7A0 // 진단기 요청 ID
 #define CAN_ID_DIAG_RESPONSE    0x7A8 // 진단기 응답 ID
 
+// UDS Service ID (SID) 정의
+#define UDS_SID_READ_DTC     0x19 // ReadDTCInformation
+#define UDS_SID_CLEAR_DTC    0x14 // ClearDiagnosticInformation
+
+
 void CAN_Manager_Init(CAN_HandleTypeDef *hcan);
 HAL_StatusTypeDef CAN_Transmit_DTC(uint32_t dtcCode);
 HAL_StatusTypeDef CAN_Transmit_Diag_Response(uint8_t *data, uint8_t length); // 진단 응답 함수
